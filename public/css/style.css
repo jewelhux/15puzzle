@@ -1,0 +1,209 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333B41;
+  scroll-behavior: smooth;
+}
+
+main {
+  position: relative;
+  max-width: 500px;
+  padding: 5px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  background: none;
+  cursor: pointer;
+}
+
+.setting-buttons button {
+  padding: 2px 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.stats {
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.border-size {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.border-size button {
+  padding: 2px 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.leasers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 0;
+  border: solid 3px black;
+}
+
+.score-list {
+  align-self: center;
+}
+
+.puzzle-list {
+  position: relative;
+  width: 100%;
+  border: 3px solid black;
+  padding-bottom: 100%;
+  background-color: black;
+  user-select: none;
+}
+
+.puzzle-item {
+  font-size: 22px;
+  background: goldenrod;
+  border: 2px solid black;
+  position: absolute;
+  transition: all 0.5s;
+  left: 0;
+  top: 0;
+}
+
+.active-size {
+  background-color: rgb(185, 98, 98);
+}
+
+.puzzle-item-4 {
+  width: 50%;
+  height: 50%;
+}
+
+.puzzle-item-9 {
+  width: 33.333%;
+  height: 33.333%;
+}
+
+.puzzle-item-16 {
+  width: 25%;
+  height: 25%;
+}
+
+.puzzle-item-25 {
+  width: 20%;
+  height: 20%;
+}
+
+.puzzle-item-36 {
+  width: 16.666%;
+  height: 16.666%;
+}
+
+.puzzle-item-49 {
+  width: 14.285%;
+  height: 14.285%;
+}
+
+.puzzle-item-64 {
+  width: 12.5%;
+  height: 12.5%;
+}
+
+.setting-item:active {
+  background-color: green;
+}
+
+.notation {
+  border: solid 3px black;
+}
+
+.notation-title {
+  font-weight: 700;
+}
+
+.notation-text {
+  margin: 7px 0;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.winning-message {
+  display: none;
+  /* display: flex; */
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.95);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.winText {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.restartButton {
+  font-size: 24px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  background-color: transparent;
+  border: solid 3px white
+}
+
+.restartButton:hover {
+  background-color: green;
+}
+
+.music-box {
+  margin: 10px 0;
+}
