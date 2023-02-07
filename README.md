@@ -1,1 +1,1 @@
-# https://jik789.github.io/RS-School-task15puzzle/build/index.html
+## Link: https://jik789.github.io/15puzzle/build/index.html
